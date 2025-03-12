@@ -1,22 +1,22 @@
 # Libft
 
-## Descrição
+## Description
 
-Libft é a minha primeira biblioteca personalizada em C. Este projeto envolve a recriação de diversas funções da biblioteca padrão da linguagem C, além da implementação de funções adicionais que serão úteis para futuros projetos. O objetivo é aprofundar o conhecimento sobre manipulação de strings, memória dinâmica e listas encadeadas.
+Libft is my first custom C library. This project involves recreating various functions from the standard C library, as well as implementing additional functions that will be useful for future projects. The goal is to deepen your knowledge of string manipulation, dynamic memory allocation, and linked lists.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado nos seguintes componentes:
+The project is organized into the following components:
 
-- **Parte 1 - Reimplementação de funções da Libft**
-- **Parte 2 - Funções adicionais**
-- **Bônus - Manipulação de listas encadeadas**
+- **Part 1 - Reimplementation of Libft functions**
+- **Part 2 - Additional functions**
+- **Bonus - Linked list manipulation**
 
-## Funcionalidades
+## Features
 
-### Parte 1 - Funções da Libft
+### Part 1 - Libft Functions
 
-Reimplementação de funções comuns da biblioteca padrão C, todas com o prefixo `ft_`, incluindo:
+Reimplementation of common functions from the standard C library, all prefixed with `ft_`, including:
 
 - ft\_isalpha, ft\_isdigit, ft\_isalnum, ft\_isascii, ft\_isprint
 - ft\_strlen, ft\_memset, ft\_bzero, ft\_memcpy, ft\_memmove
@@ -25,51 +25,51 @@ Reimplementação de funções comuns da biblioteca padrão C, todas com o prefi
 - ft\_strnstr, ft\_atoi
 - ft\_calloc, ft\_strdup
 
-### Parte 2 - Funções adicionais
+### Part 2 - Additional Functions
 
-Implementação de funções que auxiliam no manuseio de strings e memória, incluindo:
+Implementation of functions that assist with string and memory handling, including:
 
 - ft\_substr, ft\_strjoin, ft\_strtrim, ft\_split
 - ft\_itoa, ft\_strmapi, ft\_striteri
 - ft\_putchar\_fd, ft\_putstr\_fd, ft\_putendl\_fd, ft\_putnbr\_fd
 
-### Bônus - Manipulação de Listas Encadeadas
+### Bonus - Linked List Manipulation
 
-Para expandir as funcionalidades da biblioteca, foram incluídas funções para manipulação de listas encadeadas:
+To expand the library's functionalities, functions for linked list manipulation were included:
 
 - ft\_lstnew, ft\_lstadd\_front, ft\_lstsize, ft\_lstlast
 - ft\_lstadd\_back, ft\_lstdelone, ft\_lstclear
 - ft\_lstiter, ft\_lstmap
 
-## Como Usar
+## How to Use
 
-### Compilação
+### Compilation
 
-Para compilar a biblioteca, basta executar:
+To compile the library, simply run:
 
 ```sh
 make
 ```
 
-Isso gerará o arquivo `libft.a`.
+This will generate the `libft.a` file.
 
-### Uso em um Projeto
+### Usage in a Project
 
-No uso do projeto, pode incluir a biblioteca usando:
+To use the library in your project, include it as follows:
 
 ```c
 #include "libft.h"
 ```
 
-## Regras do Projeto
+## Project Rules
 
-- O código segue a Norm da 42.
-- O `Makefile` contém as regras `all`, `clean`, `fclean`, `re` e `bonus`.
-- Todas as alocações dinâmicas devem ser corretamente liberadas.
-- Nenhuma variável global é permitida.
-- Funções auxiliares devem ser declaradas como `static`.
+- The code follows the 42 Norm.
+- The `Makefile` contains the rules `all`, `clean`, `fclean`, `re`, and `bonus`.
+- All dynamically allocated memory must be properly freed.
+- Global variables are not allowed.
+- Helper functions must be declared as `static`.
 
-## Autor
+## Author
 
 Pedro Cristóvão Veiga Correia
 
